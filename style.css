@@ -3,6 +3,7 @@
   --main-font: "Barlow Semi Condensed", sans-serif;
   --500-weight: 500;
   --500-weight: 600;
+  --main-fs: 13px;
 
   /* Primary Color Properties */
   --mod-violet: hsl(263, 55%, 52%);
