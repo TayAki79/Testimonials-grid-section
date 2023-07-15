@@ -1,3 +1,20 @@
 :root {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  /* Fonts Properties */
+  --main-font: 'Barlow Semi Condensed', sans-serif;
+  --500-weight: 500;
+  --500-weight: 600;
+
+  /* Primary Color Properties */
+  --mod-violet: hsl(263, 55%, 52%);
+  --very-dk-gray-blue: hsl(217, 19%, 35%);
+  --very-dk-black-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Neutral Color Properties */
+  --lt-gray: hsl(0, 0%, 81%);
+  --lt-gray-blue: hsl(210, 46%, 95%);
+}
+
+p {
+  font-family: var(--main-font);
 }
