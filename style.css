@@ -13,6 +13,10 @@
   /* Neutral Color Properties */
   --lt-gray: hsl(0, 0%, 81%);
   --lt-gray-blue: hsl(210, 46%, 95%);
+
+  /* Opacity Property */
+  --50-op: 50%;
+  --70-op: 70%; 
 }
 
 p {
