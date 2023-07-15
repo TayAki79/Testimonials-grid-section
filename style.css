@@ -2,7 +2,7 @@
   /* Fonts Properties */
   --main-font: "Barlow Semi Condensed", sans-serif;
   --500-weight: 500;
-  --500-weight: 600;
+  --600-weight: 600;
   --main-fs: 13px;
 
   /* Primary Color Properties */
@@ -17,7 +17,7 @@
 
   /* Opacity Property */
   --50-op: 50%;
-  --70-op: 70%; 
+  --70-op: 70%;
 }
 
 /* Mobile first approach */
@@ -48,23 +48,40 @@ body {
 
 /* Styling of testimonial card */
 
-.graduate { 
-  display: flex; 
-  flex-direction: column; 
-  padding: 20px;
+.graduate {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
   border-radius: 8px;
-} 
+}
+
+.who-is {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.review {
+  font-weight: var(--600-weight);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
 
 .student1 {
   background-color: var(--mod-violet);
 }
 
+img {
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
 /* Footer */
-.attribution { 
+.attribution {
   font-size: 11px;
-  text-align: center; 
-} 
+  text-align: center;
+}
 
 .attribution a {
-  color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
