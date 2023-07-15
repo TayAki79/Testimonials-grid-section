@@ -38,10 +38,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .testimonial-container {
   background-color: var(--lt-gray-blue);
   padding: 30px;
+}
+
+/* Styling of testimonial card */
+
+.graduate { 
+  display: flex; 
+  flex-direction: column; 
+  margin: 20px; 
+} 
+
+/* Footer */
+.attribution { 
+  font-size: 11px;
+  text-align: center; 
+} 
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
 }
