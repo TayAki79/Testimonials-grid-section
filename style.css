@@ -1,6 +1,6 @@
 :root {
   /* Fonts Properties */
-  --main-font: 'Barlow Semi Condensed', sans-serif;
+  --main-font: "Barlow Semi Condensed", sans-serif;
   --500-weight: 500;
   --500-weight: 600;
 
@@ -17,4 +17,13 @@
 
 p {
   font-family: var(--main-font);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
