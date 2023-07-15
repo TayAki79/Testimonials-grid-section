@@ -30,9 +30,18 @@
 }
 
 body {
-  background-color: var(--lt-gray-blue);
   width: 375px;
   margin: 0 auto;
   font-family: var(--main-font);
   font-size: var(--main-fs);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.testimonial-container {
+  background-color: var(--lt-gray-blue);
+  padding: 30px;
 }
