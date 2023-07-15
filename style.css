@@ -20,8 +20,29 @@
   --70-op: 70%; 
 }
 
-p {
+/* Mobile first approach */
+/* Global settings */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--lt-gray-blue);
+  width: 375px;
+  margin: 0 auto;
   font-family: var(--main-font);
+  font-size: var(--main-fs);
+}
+
+/* Styling of testimonial card */
+.graduate {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 20px;
 }
 
 .attribution {
