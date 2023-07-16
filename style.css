@@ -130,6 +130,15 @@ img {
     margin: 0;
   }
 
+  .review {
+    font-size: 1.3rem;
+  }
+
+  .quote {
+    font-size: 14px;
+    font-weight: var(--500-weight);
+  }
+
   /* Setting grid layout */
   .student1 {
     grid-column: span 2;
