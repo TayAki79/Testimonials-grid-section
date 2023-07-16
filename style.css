@@ -107,6 +107,16 @@ img {
   color: var(--white);
 }
 
+/* Desktop Version */
+@media (min-width: 1440px) {
+  /* Global settings */
+  .testimonial-container {
+    width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+}
 
 /* Footer */
 .attribution {
