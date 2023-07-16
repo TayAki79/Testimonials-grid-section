@@ -117,10 +117,17 @@ img {
 
   .testimonial-container {
     width: 1440px;
-    padding: 100px;
+    padding: 150px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 400px 400px;
+    grid-template-rows: 300px 300px;
+    gap: 30px;
+  }
+
+  /* Styling of testimonial card */
+
+  .graduate {
+    margin: 0;
   }
 
   /* Setting grid layout */
