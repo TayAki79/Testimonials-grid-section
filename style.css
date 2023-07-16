@@ -97,6 +97,16 @@ img {
   color: var(--white);
 }
 
+.student3, .student5 {
+  background-color: var(--white);
+  color: var(--very-dk-gray-blue);
+}
+
+.student4 {
+  background-color: var(--very-dk-black-blue);
+  color: var(--white);
+}
+
 
 /* Footer */
 .attribution {
