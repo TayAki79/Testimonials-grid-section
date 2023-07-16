@@ -66,15 +66,31 @@ body {
   margin-bottom: 20px;
 }
 
-.student1 {
-  background-color: var(--mod-violet);
-}
-
 img {
   margin-right: 15px;
   border-radius: 50%;
   border: 2px solid white;
 }
+
+.status {
+  opacity: var(--50-op);
+}
+
+.quote {
+  opacity: var(--70-op);
+}
+
+/* Styling individual cards */
+
+.student1 {
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px top;
+  background-size: 7.5rem;
+  background-color: var(--mod-violet);
+  color: var(--white);
+}
+
 
 /* Footer */
 .attribution {
