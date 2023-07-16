@@ -97,7 +97,8 @@ img {
   color: var(--white);
 }
 
-.student3, .student5 {
+.student3,
+.student5 {
   background-color: var(--white);
   color: var(--very-dk-gray-blue);
 }
